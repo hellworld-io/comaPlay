@@ -26,33 +26,39 @@
 
 ## 설치 및 설정
 ### 설치
-#### Activator 버젼설치
+#### Activator 설치
 
 * [Download](https://www.playframework.com/download)에서 최신버전 다운로드
 * 다운로드 완료된 압축파일을 원하는 위치에 압축해제 
 ``` ex) /Users/yoonjungboo/coma_dev/play/activator-1.2.10-minimal ```
+
 * 압축 해제한 폴더까지의 경로를 환경변수에 추가.
 	* [참고](https://www.playframework.com/documentation/2.3.x/Installing)
+
+* brew를 이용한 설치
+``` brew install typesafe-activator ```
+
 * activator -help 명령어를 이용하여 설정확인.
 
 #### Activator 실행
-* 새로이 생성할 어플리케이션 폴더로 이동 
+* 신규 생성할 프로젝트 폴더로 이동
 	```
-    	mkdir /Users/yoonjungboo/coma_dev
-		cd /Users/yoonjungboo/coma_dev
+    	mkdir /Users/yoonjeongbu/coma/dev/comaPlay/helloPlay
+		cd /Users/yoonjeongbu/coma/dev/comaPlay/helloPlay
     ```
 * 해당 폴더에서 activator 명령어 실행.
 ![activator 실행](./img/activator_run.png)
 * 위 화면이 표시되면 기본 설정 화면이 브라우져에 나타난다. (http://127.0.0.1:8888/home)
-* activator new helloplay 실행.
+* activator new [어플리케이션명] 실행.
+``` activator new helloplay ```
 ![activator new helloplay 실행](./img/helloplay_new.png)
 
 * 생성하고자 하는 어플리케이션 번호 입력
-* 각종 라이브러리 및 플러그인 다운로드 후 helloplay1이라는 폴더가 생성됨.
+* 각종 라이브러리 및 플러그인 다운로드 후 helloplay이라는 폴더가 생성됨.
 * 해당 폴더로 이동.
-* activator 실행
+* activator 명령어 실행
 ![activator application 실행](./img/activator_application.png)
-* 그림의 마지막 처럼 콘솔화면이 변경되어지면 해당 콘솔에 run 명령어를 실행하여 서버구동.
+* play sbt가 실행되면(그림참조) run 명령어로 생성하 어플리케이션 실행
 ![activator application 실행](./img/activator_application_run.png)
 * 서버가 정상적으로 실행되면 http://localhost:9000 으로 확인
 * 이상없이 실행되면 application 생성 및 구동완료.
