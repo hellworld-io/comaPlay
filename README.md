@@ -42,18 +42,18 @@
 		cd /Users/yoonjungboo/coma_dev
     ```
 * 해당 폴더에서 activator 명령어 실행.
-![activator 실행](./img/스크린샷 2014-11-11 오후 1.38.19.png)
+![activator 실행](./img/activator_run.png)
 * 위 화면이 표시되면 기본 설정 화면이 브라우져에 나타난다. (http://127.0.0.1:8888/home)
-* activator new helloplay1 실행.
-![activator new helloplay1 실행](./img/스크린샷 2014-11-11 오후 1.44.41.png)
+* activator new helloplay 실행.
+![activator new helloplay 실행](./img/helloplay_new.png)
 
 * 생성하고자 하는 어플리케이션 번호 입력
 * 각종 라이브러리 및 플러그인 다운로드 후 helloplay1이라는 폴더가 생성됨.
 * 해당 폴더로 이동.
 * activator 실행
-![activator application 실행](./img/스크린샷 2014-11-11 오후 1.47.57.png)
+![activator application 실행](./img/activator_application.png)
 * 그림의 마지막 처럼 콘솔화면이 변경되어지면 해당 콘솔에 run 명령어를 실행하여 서버구동.
-![activator application 실행](./img/스크린샷 2014-11-11 오후 1.49.41.png)
+![activator application 실행](./img/activator_application_run.png)
 * 서버가 정상적으로 실행되면 http://localhost:9000 으로 확인
 * 이상없이 실행되면 application 생성 및 구동완료.
 * 가끔 오류가 발생하는 경우가 있음. (아직 안정적이지는 못한듯한 느낌.)
