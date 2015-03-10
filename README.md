@@ -73,9 +73,6 @@
 
 * 새로이 생성한 프로젝트 폴더로 이동.
 * 해당폴더에서 activator(play) 명령어 실행하여 play sbt콘솔로 이동.
-
-![activator application 실행](./img/스크린샷 2014-11-12 오후 3.08.21.png)
-
 * sbt 콘솔에서 eclipse 명령어 실행. (play소스파일까지 같이 만들고 싶으면 eclipse with-source=true
  명령어 사용.)
 * eclipse 프로젝트 작업이 완료되면 해당 폴더를 eclipse에 프로젝트로 import하여 확인이 가능.
